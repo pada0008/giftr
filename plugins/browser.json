@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.giftr"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.giftr"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.giftr"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ca.edumedia.pada0008.giftr"
+        }
+    },
+    "dependent_plugins": {}
+}

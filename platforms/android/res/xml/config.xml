@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.pada0008.giftr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>GiftR</name>
+    <description>
+        Store gifts idea for contacts.
+    </description>
+    <author email="pada0008@algonquinlive.com" href="http://cordova.io">
+        MADD Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <splash density="land-hdpi" src="res/screen/android/res-long-land-hdpi/default.png" />
+    <splash density="land-mdpi" src="res/screen/android/res-long-land-mdpi/default.png" />
+    <splash density="land-xhdpi" src="res/screen/android/res-long-land-xhdpi/default.png" />
+    <splash density="land-xxhdpi" src="res/screen/android/res-long-land-xxhdpi/default.png" />
+    <splash density="land-xxxhdpi" src="res/screen/android/res-long-land-xxxhdpi/default.png" />
+    <splash density="port-hdpi" src="res/screen/android/res-long-port-hdpi/default.png" />
+    <splash density="port-mdpi" src="res/screen/android/res-long-port-mdpi/default.png" />
+    <splash density="port-xhdpi" src="res/screen/android/res-long-port-xhdpi/default.png" />
+    <splash density="port-xxhdpi" src="res/screen/android/res-long-port-xxhdpi/default.png" />
+    <splash density="port-xxxhdpi" src="res/screen/android/res-long-port-xxxhdpi/default.png" />
+    <icon density="mdpi" src="res/icon/android/drawable-mdpi/icon.png" />
+    <icon density="hdpi" src="res/icon/android/drawable-hdpi/icon.png" />
+    <icon density="xhdpi" src="res/icon/android/drawable-xhdpi/icon.png" />
+    <icon density="xxhdpi" src="res/icon/android/drawable-xxhdpi/icon.png" />
+    <icon density="xxxhdpi" src="res/icon/android/drawable-xxxhdpi/icon.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

@@ -41,7 +41,7 @@ function first_load() {
             a.className = "navigate-right pull-right";
             a.setAttribute("href", "gifts.html");
             aSpanGifts.className = "dob";
-            var dt = moment(appGiftr.data.people[i].dob).format("MMM do")
+            var dt = moment(appGiftr.data.people[i].dob).format("MMM Do")
             aSpanGifts.innerHTML = dt;
             a.appendChild(aSpanGifts);
             span.appendChild(aSpanName);
